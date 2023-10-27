@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+ background-image: linear-gradient(rgba(0, 181, 255, 0.8), rgba(143, 238, 255, 0.8)), url("greece.jpeg");
+  background-size: cover;
+  position: relative;
+}
+
+
+
+form {
+  background-color: white;
+  position: center;
+  font-family: sans-serif;
+  background-blend-mode: overlay;
+}
+
+
+
+form h1 {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 2rem;
+  font-family: sans-serif;
+}
+
+.Navigation {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.Navigation a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Impact;
+}
+
+.Navigation a:hover {
+  background-color: #ddd;
+  color: #c7c7c7;
+}
+
+.Navigation a.active {
+  background-color: #0c1d73;
+  color: white;
+}
+
+#Gaia {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Zeus {
+  background-color: #e1ff00; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Cronos {
+  background-color: #ff0000; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Uranus {
+  background-color: #5900ff; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+table {
+  border-radius: 25px;
+  
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border:1px solid black;
+}
